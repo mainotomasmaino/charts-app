@@ -7,16 +7,16 @@ export const Navigation = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Direcci%C3%B3n_General_de_Aeron%C3%A1utica_Civil_de_Chile.svg/1200px-Direcci%C3%B3n_General_de_Aeron%C3%A1utica_Civil_de_Chile.svg.png"
-              alt="DGAC Logo"
+              src="/logo512x512.webp"
+              alt="Charts de Aeropuertos de Chile"
               className="h-12 w-auto"
             />
             <div>
               <h1 className="text-2xl font-bold text-gray-900">
-                Aeropuertos de Chile
+                Procedimientos Aéreos en Chile
               </h1>
               <p className="text-sm text-gray-600">
-                Dirección General de Aeronáutica Civil
+                Información detallada de los <span className="font-bold">procedimientos aéreos actualizados</span> en Chile.
               </p>
             </div>
           </div>
